@@ -16,6 +16,7 @@
     align-items: center;
     justify-content: space-between;
     margin-left: 65px;
+    padding: 0 var(--default-layout-horizontal-spacer);
 }
 .search,
 .search-result {
@@ -93,10 +94,31 @@
         background-color: rgba(22, 24, 35, 0.06);
     }
 }
+//action
+.actions{
+    display: flex;
+    align-items: center;
+}
 .more-btn {
+    cursor: pointer;
     font-size: 2rem;
     margin-left:28px;
     padding:4px 8px;
     background-color: transparent;
+}
+.action-btn{
+    cursor: pointer;
+    font-size: 2.2rem;
+    color: #161823;
+    background-color: transparent;
+    padding: 4px 12px;
+}
+.user-avatar{
+    width: 32px;
+    height: 32px;
+    object-fit: center;
+    border-radius: 50%;
+    margin-left: 12px;
+    cursor: pointer;
 }
 
